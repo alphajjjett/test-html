@@ -1,0 +1,23 @@
+body {
+    background-color:coral;
+  }
+  h1 {
+    color: black;
+    border: 2px solid powderblue;
+    margin: 50px;
+    background-color: red; 
+    font-size:300% ; 
+    text-align:center; 
+    border:10px solid white;
+  }
+  p {
+    color: black;
+    border: 2px solid powderblue;
+    padding: 30px;
+  }
+
+  a {
+    border: 2px solid powderblue;
+    padding: 10px;
+    background-color: bisque;
+  }
