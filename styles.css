@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+  font-family: 'Protest Riot';
+
+}
 body {
     background-color:coral;
   }
@@ -10,14 +17,38 @@ body {
     text-align:center; 
     border:10px solid white;
   }
-  p {
-    color: black;
-    border: 2px solid powderblue;
-    padding: 30px;
-  }
 
   a {
     border: 2px solid powderblue;
     padding: 10px;
     background-color: bisque;
   }
+
+.image1{
+  width:100%;
+  overflow:auto;
+}
+
+
+.image1 div{ 
+  width: auto;
+  display:inline-block;
+}
+
+.image1 div img{
+  margin: 0;
+  width: 500px;
+  height: auto;
+  display:block;
+}
+
+.image1 div .text{
+  margin-top: 10px;
+  background-color: white;   
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  border: 5px solid red;
+
+  
+}
